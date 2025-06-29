@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3b2b2b;
+    color: #f4a5a5;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #f4a5a5;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: #eee;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #1da6ba;
+}
+
+.hero button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #f56342;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.katalog {
+    padding: 4rem 2rem;
+    background: #fafafa;
+}
+
+.katalog h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.paket-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.paket {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.paket button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #1da6ba;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #3b2b2b;
+    color: #f4a5a5;
+}
+.pelaminan {
+    padding: 4rem 2rem;
+    background: #fff;
+}
+
+.pelaminan h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pelaminan-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pelaminan-item {
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.pelaminan-item img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.pelaminan-item h3 {
+    margin-top: 1rem;
+    color: #1da6ba;
+}
+
+.pelaminan-item p {
+    font-size: 0.95rem;
+    color: #555;
+}
